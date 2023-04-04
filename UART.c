@@ -4,6 +4,24 @@ volatile uint32 *RCC_CR = 0x40023800; // CLOCK ENABLE
 volatile uint32 *RCC_AHB1ENR = (0x40023800+0x30);                                               
 volatile uint32 *GPIOA_MODER = (0x40020000+0x00);
 volatile uint32 *GPIOA_AFRH = (0x40020000+0x24);
+
+volatile uint32 *RCC_CR = 0x40023800; // CLOCK ENABLE
+volatile uint32 *RCC_AHB1ENR = (0x40023800+0x30);                                               
+volatile uint32 *GPIOA_MODER = (0x40020000+0x00);
+volatile uint32 *GPIOA_AFRH = (0x40020000+0x24);
+volatile uint32 *RCC_CR = 0x40023800; // CLOCK ENABLE
+volatile uint32 *RCC_AHB1ENR = (0x40023800+0x30);                                               
+volatile uint32 *GPIOA_MODER = (0x40020000+0x00);
+volatile uint32 *GPIOA_AFRH = (0x40020000+0x24);
+volatile uint32 *RCC_CR = 0x40023800; // CLOCK ENABLE
+volatile uint32 *RCC_AHB1ENR = (0x40023800+0x30);                                               
+volatile uint32 *GPIOA_MODER = (0x40020000+0x00);
+volatile uint32 *GPIOA_AFRH = (0x40020000+0x24);
+
+volatile uint32 *RCC_CR = 0x40023800; // CLOCK ENABLE
+volatile uint32 *RCC_AHB1ENR = (0x40023800+0x30);                                               
+volatile uint32 *GPIOA_MODER = (0x40020000+0x00);
+volatile uint32 *GPIOA_AFRH = (0x40020000+0x24);
 volatile uint32 *USART_SR = 0x40004C00;
 volatile uint32 *USART_CR1 = (0x40004C00+0x0C);
 volatile uint32 *USART_BRR = (0x40004C00+0x08);                                 //uint32 *RCC_CFGR_PPRE1 = (0x40004C00+0x40);
